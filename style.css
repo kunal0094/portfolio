@@ -1,0 +1,47 @@
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  color: blueviolet;
+  text-decoration: underline ;
+}
+section {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2, h3 {
+  color: #333;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+li {
+  margin-bottom: 10px;
+}
+.project {
+  margin-bottom: 20px;
+}
+.contact-info a {
+  display: block;
+  color: #007BFF;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
